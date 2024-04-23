@@ -46,5 +46,9 @@ export let navdata = [
     {
         path: "/Apiasync&await",
         name: "Apiasync&await",
+    },
+    {
+        path:"/callback",
+        name: "Callback",
     }
 ]

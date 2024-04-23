@@ -13,6 +13,7 @@ import SignalineUsestate from './componet/Signalineusestate';
 import Api from './componet/Api';
 import Apicrud from './componet/Apicrud';
 import Asyncawaitdata from './componet/Apiasync&await';
+import Callback from './componet/Callback,memo';
 
 
 function App() {
@@ -33,6 +34,7 @@ function App() {
         <Route path="/Api" element={<Api/>} />
         <Route path="/Apicrud" element={<Apicrud/>} />
         <Route path="/Apiasync&await" element={<Asyncawaitdata/>} />
+        <Route path="/callback" element={<Callback/>} />
       </Routes>
     </>
   );
